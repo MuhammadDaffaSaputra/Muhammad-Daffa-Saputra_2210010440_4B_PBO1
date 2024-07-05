@@ -83,15 +83,7 @@ public class MahasiswaDetail extends Mahasiswa {
 
 9. **Polymorphism** adalah konsep di mana sebuah nama dapat digunakan untuk merujuk ke beberapa tipe atau bentuk objek berbeda. Ini memungkinkan metode-metode dengan nama yang sama untuk berperilaku berbeda tergantung pada tipe objek yang mereka manipulasi, polymorphism bisa berbentuk Overloading ataupun Overriding. Pada kode ini, method `displayInfo(String)` di `Mahasiswa` merupakan overloading method `displayInfo` dan `displayInfo` di `MahasiswaDetail` merupakan override dari method `displayInfo` di `Mahasiswa`.
 
-```bash
-public String displayInfo(String kelas) {
-    return displayInfo() + "\nKelas: " + kelas;
-}
-
-@Override
-public String displayInfo() {
-    ...
-}
+```
 ```
 
 10. **Seleksi** adalah statement kontrol yang digunakan untuk membuat keputusan berdasarkan kondisi. Pada kode ini, digunakan seleksi `if else` dalam method `getFakultas` dan seleksi `switch` dalam method `getProdi`.
@@ -247,13 +239,13 @@ default:
 |  6  | Accessor       |    5    |
 |  7  | Encapsulation  |    5    |
 |  8  | Inheritance    |    0    |
-|  9  | Polymorphism   |   10    |
+|  9  | Polymorphism   |   0    |
 | 10  | Seleksi        |    5    |
 | 11  | Perulangan     |    5    |
 | 12  | IO Sederhana   |   10    |
 | 13  | Array          |   15    |
 | 14  | Error Handling |   15    |
-|     | **TOTAL**      | **90** |
+|     | **TOTAL**      | **80** |
 
 ## Pembuat
 
